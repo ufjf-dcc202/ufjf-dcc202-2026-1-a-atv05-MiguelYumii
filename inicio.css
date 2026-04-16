@@ -1,0 +1,203 @@
+
+/* Libre Baskerville */
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+
+colgroup {
+
+    background-color: #2D2D2D;
+    background-color: #111111;
+    background-color: #A6191E;
+    background-color: #D87C6A;
+    background-color: #EED4B0;
+
+}
+
+
+
+/* ================================ */
+/* ===== CONFIGURAÇÕES GLOBAIS ===== */
+
+
+
+html {
+   
+    scroll-behavior: smooth;    
+}
+
+body {
+    font-family: 'Libre Baskerville';
+    background: #250C0C;
+    background: linear-gradient(90deg, rgba(37, 12, 12, 1) 0%, rgba(0, 0, 0, 1) 50%);
+}
+
+.Texto_PADRAO {
+
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: normal;
+    text-indent: 25px;
+    text-align: left;
+    padding: 25px;
+}
+
+
+
+
+
+
+/* ================================ */
+/* ========TÍTULO DA PÁGINA======== */
+
+
+.Header_PAGINA{
+
+    display: grid;                          /* 1. Transforma o contêiner em grid */
+    grid-template-columns: 1fr 1fr;         /* Diz: "Eu quero duas colunas, cada uma com 1 fração de espaço" */
+    gap: 20px;                              /* Adiciona um espaço entre as colunas */
+    text-align: center;
+    margin-top: 5%;
+}
+
+.Titulo_SACRILEGIO {
+
+    font-size: 4.6rem;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
+    Font-weight: normal;
+}
+
+.Titulo_RPG {
+
+    font-size: 2.8rem;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
+    font-weight: bold;
+    margin-top: -6%;
+}
+
+.Texto_INTRO {
+
+    font-size: 1.4rem;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #000000;
+    font-weight: normal;
+    text-indent: 25px;
+    text-align: justify;
+    padding: 15%;
+    margin-top: -1%;     
+
+}
+
+
+/* ================================ */
+/* ===== O MUNDO QUE TE ODEIA ===== */
+
+
+.linha-vermelha-hr {
+
+    border: none;                     
+    height: 2px;
+    background-color: #A6191E;
+    width: 100vw;                    
+}
+
+
+
+.Container_NAO_ESPECIAL {
+
+    width: 40%;    
+    height: 100%;  
+    margin-left: 7%;
+    background: rgb(45 45 45 / 35%);
+    border-radius: 25px;
+    margin-bottom: 10%
+}
+
+
+.Titulo_NAO_ESPECIAL {
+
+    font-size: 2.3rem;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
+    Font-weight: normal;
+    margin-top: 7%;
+    margin-left: 7%;
+}
+
+
+
+/* =========================================== */
+/* ==== CRESÇA, ADAPSE, TESTEMUNHE, MORRA ==== */
+
+
+
+.CRESCA_ADAPSE {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 7%;
+    column-gap: 50px;
+
+}
+
+.Container_CRESCA_ADAPSE {
+
+    width: 100%;    
+    height: 100%;  
+    background: rgb(45 45 45 / 35%);
+    border-radius: 25px;
+    grid-column: 2 / 2;
+}
+
+.Titulo_CRESCA_ADAPSE {
+
+    font-size:  2.3rem;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
+    Font-weight: normal;
+    grid-column: 2 / 2;
+    margin-top: 13%;
+    margin-right: 6%;
+}
+
+
+/* =========================================== */
+/* ========== VOCÊ NÃO É ESPECIAL ============ */
+
+
+.MUNDO_ODEIA {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 7%;
+    column-gap: 50px;
+}
+
+.Container_MUNDO_ODEIA {
+
+    width: 100%;    
+    height: 100%;  
+    background: rgb(45 45 45 / 35%);
+    border-radius: 25px;
+    grid-column: 1 / 3;
+}
+
+.Titulo_MUNDO_ODEIA {
+
+    font-size:  2.3rem;
+    color: #ffffff;
+    text-shadow: 4px 4px 8px #000000;
+    Font-weight: normal;
+    grid-column: 1 / 3;
+    margin-top: 13%;
+}
+
+
+
+
+/* =========================================== */
