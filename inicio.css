@@ -201,3 +201,32 @@ body {
 
 
 /* =========================================== */
+
+/* ======= Botão de navegação (estilo da página) ======= */
+.Nav_Button_Container {
+    margin: 3% 7%;
+}
+
+.Btn_ESTILO {
+    display: inline-block;
+    padding: 12px 28px;
+    font-size: 1.25rem;
+    color: #ffffff;
+    background: rgba(0,0,0,0.35);
+    border: 2px solid #A6191E;
+    border-radius: 12px;
+    text-decoration: none;
+    text-shadow: 2px 2px 4px #000000;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+    transition: transform 0.15s ease, background 0.15s ease;
+}
+
+.Btn_ESTILO:hover,
+.Btn_ESTILO:focus {
+    transform: translateY(-3px);
+    background: rgba(166,25,30,0.12);
+}
+
+.Btn_ESTILO:active {
+    transform: translateY(0);
+}
