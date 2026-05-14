@@ -230,3 +230,69 @@ body {
 .Btn_ESTILO:active {
     transform: translateY(0);
 }
+
+
+/* ======= Estilos para listas (listas.html) ======= */
+main {
+    color: #ffffff;
+}
+
+/* Base para todas as listas */
+main ol, main ul {
+    margin: 0 0 1.5rem 2rem;
+    padding: 0;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+/* Lista ordenada */
+main ol {
+    list-style: decimal;
+}
+
+main ol li {
+    margin: 0.5rem 0;
+}
+
+/* Lista não ordenada com marcador personalizado */
+main ul {
+    list-style: none;
+}
+
+main ul li {
+    position: relative;
+    margin: 0.5rem 0 0.5rem 1rem;
+    padding-left: 1.2rem;
+}
+
+main ul li::before {
+    content: '';
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #A6191E;
+    border-radius: 50%;
+    position: absolute;
+    left: -1rem;
+    top: 0.6rem;
+    box-shadow: 0 0 8px rgba(166,25,30,0.5);
+}
+
+/* Lista de definição */
+dl {
+    margin: 0 0 1.5rem 0;
+}
+
+dt {
+    font-weight: 700;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+dd {
+    margin: 0.25rem 0 0.75rem 1rem;
+    background: rgba(0,0,0,0.35);
+    padding: 10px 14px;
+    border-radius: 10px;
+    color: #f2f2f2;
+    max-width: 80%;
+}
